@@ -1,0 +1,11 @@
+Creas una carpeta y click derecho Open in integrated terminal
+
+function prompt {'React-->'} Para que no te salga todo el directorio
+
+npx create-react-app nombre de la aplicacion p.e npx create-react-app pepito
+
+cd nombre de la aplicacion cd pepito
+
+npm start
+
+Y ya esta
