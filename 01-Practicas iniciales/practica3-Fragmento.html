@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Enlaces CDN desarrollador  -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <!-- Hemos añadido REACT a HTML  -->
+    <!-- Babel para interpretar JSX  -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <!-- 
+        Babel.js es un transpilador de JavaScript que convierte código moderno
+        en una versión antigua y compatible con navegadores más antiguos.
+    -->
+</head>
+<body>
+    <h1>Mi primer ejemplo REACT</h1>
+    <p>Hola Mundo</p>
+    <div id="principal">
+
+    </div>
+    <script type="text/babel">
+    //Ejemplo en modo declarativo JSX
+    //Fragmentos
+    const elemento=<>
+                    /* Esto de poner <> y </> es para evitar tener que envolver elementos en un div */
+                        <h2>Esto es un elemento JSX de React</h2>
+                        <h3>Esto es un h3</h3>
+                    </>;
+    //Creo un elemento ROOT como contenedor 
+    const contenedor=ReactDOM.createRoot(document.getElementById('principal'));
+    //Asociar este elemento dentro del contenedor
+    contenedor.render(elemento);
+    </script>
+</body>
+</html>

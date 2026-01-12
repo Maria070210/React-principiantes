@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Enlaces CDN desarrollador  -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <!-- Hemos añadido REACT a HTML  -->
+  
+</head>
+<body>
+    <h1>Mi primer ejemplo REACT</h1>
+    <p>Hola Mundo</p>
+    <div id="principal">
+
+    </div>
+    <script>
+    //Ejemplo en modo declarativo JSX sin JSX
+    const elemento=React.createElement(
+        'div',
+        null,
+        React.createElement('h2', null, 'Esto es un elemento REACT sin JSX'),
+        React.createElement('h3', null, 'Esto es un h3')
+    );
+    //Creo un elemento ROOT como contenedor 
+    const contenedor=ReactDOM.createRoot(document.getElementById('principal'));
+    //Asociar este elemento dentro del contenedor
+    contenedor.render(elemento);
+    </script>
+</body>
+</html>
