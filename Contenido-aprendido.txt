@@ -1,0 +1,7 @@
+En este curso express para principiantes de React he aprendido lo siguiente:
+    - Añadir react a una página web
+    - Uso de JSX incrustado en html
+    - Fragmentos, variables, expresiones JSX
+    - Añadir componentes como función (buena práctica) 
+        y como una clase (más para saber como se haría, pero ya no se usa)
+    - 
