@@ -4,4 +4,9 @@ En este curso express para principiantes de React he aprendido lo siguiente:
     - Fragmentos, variables, expresiones JSX
     - Añadir componentes como función (buena práctica) 
         y como una clase (más para saber como se haría, pero ya no se usa)
-    - 
+    - Añadir componentes JSX y anidarlos e insertarlos a la página web
+    - Crear una aplicación React con Node
+        - Props y argumentos
+        - Eventos
+        - Hooks de estado y de efecto
+        - Rutas con React Router

@@ -7,7 +7,7 @@ function Salario({salario_total, impuestos}) {
     //Funcion Resultado
     function calcularSalario(evento) {
         console.log(evento);
-        resultado=(salario_total -(salario_total * impuestos/100));
+        resultado=(salario_total -(salario_total * impuestos/100)); // Calcula el resultado
         document.getElementById("resultado").innerHTML=resultado
       }
     
